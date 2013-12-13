@@ -13,8 +13,8 @@ CREATE TABLE "station_statuses"
 (
   station_id integer,
   status text,
-  bikes_avaiable integer,
-  docks_avaiable integer,
+  bikes_available integer,
+  docks_available integer,
   month integer,
   day integer,
   hour integer,
