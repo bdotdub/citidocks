@@ -19,5 +19,5 @@ CREATE TABLE "station_statuses"
   day integer,
   hour integer,
   minute integer,
-  PRIMARY KEY (station_id, day, hour, minute)
+  PRIMARY KEY (station_id, month, day, hour, minute)
 )
